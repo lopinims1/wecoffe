@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeCoffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVBAR -->
+    <header class="header">
+        <div class="logo">
+            <!-- SUA IMAGEM DO LOGO (GITHUB / ICONE) -->
+            <img src="URL_DA_IMAGEM_LOGO_GITHUB.png" alt="Logo">
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="#cafe">Café</a>
+            <a href="#bolos">Bolos</a>
+            <a href="#salgados">Salgados</a>
+        </nav>
+
+        <button class="btn-login">Login</button>
+    </header>
+
+    <!-- SEÇÃO HERO (TOPO) - CORRIGIDA E CENTRALIZADA -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <!-- Textos do topo centralizados -->
+            <div class="hero-header-text">
+                <p class="greeting">Olá, bem-vindo ao</p>
+                <h1 class="brand-title">We<span>Coffee</span>.</h1>
+                <p class="subtitle">O melhor café, direto até você.</p>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar...">
+                <button class="search-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <p class="hero-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+            </p>
+        </div>
+
+        <!-- Imagem posicionada à direita dentro da seção -->
+        <div class="hero-image-container">
+            <!-- SUA IMAGEM DE FUNDO DO HERO (XÍCARA DE CAFÉ E MENTAS) -->
+            <img src="./assets/baner.png" alt="Café Especial" class="hero-img">
+        </div>
+    </section>
+
+    <!-- SEÇÃO MENU DE PRODUTOS -->
+    <section class="menu-section">
+        <h2 class="menu-title">Menu</h2>
+
+        <!-- FILTROS DE CATEGORIA -->
+        <div class="category-filters">
+            <button class="filter-btn active">Café Gelado</button>
+            <button class="filter-btn">Café</button>
+            <button class="filter-btn">Bolos</button>
+            <button class="filter-btn">Salgados</button>
+        </div>
+
+        <!-- GRID DE CARDS -->
+        <div class="products-grid">
+            
+            <!-- CARD 1 (COM CONTEÚDO EXEMPLES) -->
+            <div class="product-card">
+                <div class="card-img-wrapper">
+                    <!-- SUA IMAGEM DO PRODUTO 1 -->
+                    <img src="URL_DA_IMAGEM_CAFE_AMERICANO.png" alt="Americano">
+                </div>
+                <div class="card-info">
+                    <div class="card-text">
+                        <h3>Americano</h3>
+                        <p>espresso + água e gelo</p>
+                    </div>
+                    <div class="card-action">
+                        <span class="price">R$ 14,99</span>
+                        <button class="btn-add">ADD +</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_2.png" alt="Produto 2">
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_3.png" alt="Produto 3">
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_4.png" alt="Produto 4">
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_5.png" alt="Produto 5">
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_6.png" alt="Produto 6">
+                </div>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_7.png" alt="Produto 7">
+                </div>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="product-card placeholder-card">
+                <div class="card-img-wrapper">
+                    <img src="URL_DA_IMAGEM_PRODUTO_8.png" alt="Produto 8">
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn-see-more">
+            Ver mais 
+            <span class="arrow-down">↓</span>
+        </button>
+    </section>
+
+    <!-- SEÇÃO BANNER INFERIOR -->
+    <section class="banner-section">
+        <div class="banner-content">
+            <div class="banner-box top-box">
+                <p>
+                    Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.
+                </p>
+            </div>
+            
+            <div class="banner-box bottom-box">
+                <p>
+                    orem ipsum is siLmply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley.
+                </p>
+            </div>
+        </div>
+
+        <div class="banner-image">
+            <!-- SUA IMAGEM DO BANNER INFERIOR (CAFÉ GELADO COM COCO E PAPEL RASGADO) -->
+            <img src="./assets/cafe-gelado.png" alt="Especial de Coco">
+        </div>
+    </section>
+
+</body>
+</html>
